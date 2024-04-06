@@ -1,0 +1,42 @@
+---
+title: "ASA Data Fest Project"
+author: "Log On"
+date: "2024-04-06"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# Set this to your working directory you have stored the project
+setwd("/Users/alexvidal/Desktop/Spring2024Classes/ASA_Datafest/Random_Sample/")
+```
+
+```{r}
+# All of the random data specifically, the real data is too large to start with 
+media_views <- read.csv("media_views.csv")
+responses <- read.csv("responses.csv")
+page_views  <- read.csv("page_views.csv")
+checkpoints_eoc <- read.csv("checkpoints_eoc.csv")
+checkpoints_pulse <- read.csv("checkpoints_pulse.csv")
+
+
+# Cleaning the Data this won't show up on the presentation.
+```
+
+
+## Data Aanalysis
+
+## Plots
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
